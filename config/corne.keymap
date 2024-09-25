@@ -59,7 +59,7 @@
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <16 19>;
+            key-positions = <6 5>;
         };
 
         jk_fix {
@@ -67,14 +67,9 @@
             key-positions = <31 32>;
         };
 
-        under {
-            bindings = <&kp UNDER>;
-            key-positions = <28 31>;
-        };
-
-        dash {
-            bindings = <&kp MINUS>;
-            key-positions = <4 7>;
+        quit_program {
+            bindings = <&kp LS(LG(DA_Q))>;
+            key-positions = <5 0>;
         };
     };
 
@@ -85,13 +80,6 @@
             bindings = <&macro_tap>, <&kp ESCAPE &kp COLON &kp W &kp ENTER>;
 
             label = "SAVE";
-        };
-
-        email: email {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp J &kp O &kp S &kp H &kp AT &kp J &kp O &kp S &kp H &kp B &kp L &kp A &kp I &kp S &kp DOT &kp C &kp O &kp M>;
-            label = "EMAIL";
         };
     };
 
