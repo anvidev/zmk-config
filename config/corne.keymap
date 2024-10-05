@@ -64,12 +64,17 @@
 
         jk_fix {
             bindings = <&kp ESCAPE>;
-            key-positions = <31 32>;
+            key-positions = <0 1>;
         };
 
         quit_program {
             bindings = <&kp LS(LG(DA_Q))>;
             key-positions = <5 0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <11 10>;
         };
     };
 
