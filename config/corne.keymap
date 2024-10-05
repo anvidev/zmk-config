@@ -145,9 +145,9 @@
 
         right {
             bindings = <
-&trans  &kp DA_N1             &kp DA_N2         &kp DA_N3     &kp DA_N4                &kp DA_N5          &kp DA_N6       &kp DA_N7  &kp DA_N8     &kp DA_N9  &kp DA_N0  &trans
-&trans  &hm LEFT_META INSERT  &hm LEFT_ALT DEL  &hm LCTRL F7  &hm LEFT_SHIFT CAPSLOCK  &kp PRINTSCREEN    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &none      &trans
-&trans  &trans                &trans            &trans        &kp LC(DA_C)             &kp LC(DA_V)       &kp C_AC_HOME   &kp PG_DN  &kp PG_UP     &kp END    &none      &trans
+&trans  &kp DA_N1             &kp DA_N2         &kp DA_N3     &kp DA_N4                &kp DA_N5          &kp DA_N6       &kp DA_N7  &kp DA_N8     &kp DA_N9  &kp DA_N0     &trans
+&trans  &hm LEFT_META INSERT  &hm LEFT_ALT DEL  &hm LCTRL F7  &hm LEFT_SHIFT CAPSLOCK  &kp PRINTSCREEN    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp DA_COMMA  &trans
+&trans  &trans                &trans            &kp LC(DA_X)  &kp LC(DA_C)             &kp LC(DA_V)       &kp HOME        &kp PG_DN  &kp PG_UP     &kp END    &kp DA_DOT    &trans
                                                 &trans        &trans                   &trans             &trans          &trans     &trans
             >;
 
