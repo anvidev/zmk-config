@@ -86,6 +86,41 @@
 
             label = "SAVE";
         };
+
+        tmux_pane_1: tmux_pane_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(DA_S) &kp DA_N1>;
+            label = "TMUX_PANE_1";
+        };
+
+        tmux_pane_2: tmux_pane_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(DA_S) &kp DA_N2>;
+            label = "TMUX_PANE_2";
+        };
+
+        tmux_pane_3: tmux_pane_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(DA_S) &kp DA_N3>;
+            label = "TMUX_PANE_3";
+        };
+
+        tmux_pane_4: tmux_pane_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(DA_S) &kp DA_N4>;
+            label = "TMUX_PANE_4";
+        };
+
+        tmux_pane_5: tmux_pane_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(DA_S) &kp DA_N5>;
+            label = "TMUX_PANE_5";
+        };
     };
 
     keymap {
@@ -138,10 +173,10 @@
 
         tri {
             bindings = <
-&none  &kp LG(DA_N1)  &kp LG(DA_N2)  &trans  &trans  &trans    &bt BT_SEL 0  &trans  &trans  &kp C_MUTE    &kp C_PP        &none
-&none  &kp LG(DA_N3)  &kp LG(DA_N4)  &trans  &trans  &trans    &bt BT_SEL 1  &trans  &trans  &kp C_VOL_UP  &kp C_NEXT      &none
-&none  &kp LG(DA_N5)  &kp LG(DA_N6)  &trans  &trans  &trans    &bt BT_SEL 2  &trans  &trans  &kp C_VOL_DN  &kp C_PREVIOUS  &none
-                                     &trans  &trans  &trans    &trans        &trans  &trans
+&none  &tmux_pane_1   &tmux_pane_2   &tmux_pane_3   &tmux_pane_4   &tmux_pane_5     &bt BT_SEL 0  &trans  &trans  &kp C_MUTE    &kp C_PP        &none
+&none  &kp LG(DA_N1)  &kp LG(DA_N2)  &kp LG(DA_N3)  &kp LG(DA_N4)  &kp LG(DA_N5)    &bt BT_SEL 1  &trans  &trans  &kp C_VOL_UP  &kp C_NEXT      &none
+&none  &trans         &trans         &trans         &trans         &trans           &bt BT_SEL 2  &trans  &trans  &kp C_VOL_DN  &kp C_PREVIOUS  &none
+                                     &trans         &trans         &trans           &trans        &trans  &trans
             >;
 
             label = "tri";
