@@ -97,7 +97,7 @@
 &none  &kp DA_Q           &kp DA_W             &kp DA_E                    &kp DA_R                  &kp DA_T     &kp DA_Y   &kp DA_U              &kp DA_I              &kp DA_O              &kp DA_P              &none
 &none  &weak LEFT_META A  &weak LEFT_ALT DA_S  &shifthr LEFT_CONTROL DA_D  &shifthr LEFT_SHIFT DA_F  &kp DA_G     &kp DA_H   &shifthr RSHIFT DA_J  &shifthr RCTRL DA_K   &weak RIGHT_ALT DA_L  &kp DA_A_RING         &none
 &none  &kp DA_Z           &kp DA_X             &kp DA_C                    &kp DA_V                  &kp DA_B     &kp DA_N   &kp DA_M              &hm DA_SEMI DA_COMMA  &hm DA_COLON DA_DOT   &hm DA_AE DA_O_SLASH  &none
-                                               &hm LC(BACKSPACE) ESCAPE    &lt 1 TAB                 &kp SPACE    &kp ENTER  &lt 2 BACKSPACE       &save
+                                               &kp ESC                     &lt 1 TAB                 &kp SPACE    &kp ENTER  &lt 2 BACKSPACE       &kp LC(BACKSPACE)
             >;
 
             label = "home";
